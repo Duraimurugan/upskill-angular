@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary: white;
+    --secondary: HSL(225, 6%, 51%);
+    --base: #282F44;
+    --base2: HSL(225, 6%, 21%);
+    --text-color: HSL(225, 6%, 21%);
+    --link-color: #093341;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.5;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body, h1, h2 {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--text-color);
+    font-size: 17px;
+}
