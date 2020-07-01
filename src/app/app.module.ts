@@ -17,4 +17,5 @@ import { SwitchComponent } from './switch/switch.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
