@@ -10,4 +10,12 @@ export class AppComponent {
   showMessage(value) {
     console.log(value); 
   }
+
+  onOpen(value) {
+    console.log(value);
+  }
+
+  onClose(value) {
+    console.log(value);
+  }
 }

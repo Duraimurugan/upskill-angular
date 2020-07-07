@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-bank-account',
+  selector: 'bank-account',
   template: `
     Bank Name: {{bankName}}
     Account Id: {{id}}
