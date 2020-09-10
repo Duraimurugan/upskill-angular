@@ -9,6 +9,7 @@ import { BankAccountComponent } from './bank-account/bank-account.component';
 import { ZippyComponent } from './zippy/zippy.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ChangeDetectionComponent } from './home/change-detection/change-detection.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
     SwitchComponent,
     BankAccountComponent,
     ZippyComponent,
-    HomeComponent
+    HomeComponent,
+    ChangeDetectionComponent
   ],
   imports: [
     BrowserModule,
